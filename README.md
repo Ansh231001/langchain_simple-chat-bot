@@ -31,6 +31,8 @@ The app features persistent chat history, LangChain-compatible message formattin
 - └── README.md # Documentation
 
 
-##Create Venv
+## Create Venv
+```
 python -m venv venv
 venv\Scripts\activate
+```
