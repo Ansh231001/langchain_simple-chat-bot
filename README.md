@@ -24,11 +24,11 @@ The app features persistent chat history, LangChain-compatible message formattin
 ---
 
 ## 📦 Project Structure
-├── main.py # Contains model setup and LangChain model initialization
-├── chatbot_ui.py # Streamlit-based chat interface
-├── .env # Stores your API key (not committed)
-├── requirements.txt # Python dependencies
-└── README.md # Documentation
+- ├── main.py # Contains model setup and LangChain model initialization
+- ├── chatbot_ui.py # Streamlit-based chat interface
+- ├── .env # Stores your API key (not committed)
+- ├── requirements.txt # Python dependencies
+- └── README.md # Documentation
 
 
 ##Create Venv
