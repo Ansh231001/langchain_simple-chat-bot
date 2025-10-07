@@ -36,3 +36,24 @@ The app features persistent chat history, LangChain-compatible message formattin
 python -m venv venv
 venv\Scripts\activate
 ```
+
+## Install Dependencies
+```
+pip install -r requirements.txt
+```
+
+## Create a .env file in the root directory and paste your API KEY in .env file:
+```
+touch .env
+
+GROQ_API_KEY=your_groq_api_key_here
+# or
+ANTHROPIC_API_KEY=your_anthropic_api_key_here
+
+```
+
+## Run app from streamlit:
+```
+streamlit run chatbot_ui.py
+
+```
